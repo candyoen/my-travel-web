@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+head{
+background: black;
+color: antiquewhite;
+}
+body{
+    background: rgb(184, 241, 184);
+
+}
+header{
+    text-align: center;
+    background: black;
+    color: beige;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px ;
+    background: blanchedalmond;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+aside{
+    background: rgb(157, 213, 240);
+    margin: 20px;
+}
+footer{
+    margin-left: 20px;
+}
