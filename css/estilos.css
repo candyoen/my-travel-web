@@ -57,3 +57,12 @@ caption{
     margin-bottom: 10px;
     font-size: 1.1em;
 }
+img{
+    max-width: 100%;
+    height: auto ;
+}
+.imagen-ajustada {
+    width: 100%;
+    max-width: 800px; 
+    height: auto;
+}
