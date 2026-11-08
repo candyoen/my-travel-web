@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>myTravelWeb</title>
+<link>https://github.com/candyoen/my-travel-web#my-travel-web</link>
+<description>Planea y recuerda todos tus viajes.</description>
+<language>es</language>
+
+
+
+<item>
+<title>Blog de viajes</title>
+<link>https://usuario.github.io/nombre-repositorio/blog.html</link>
+<guid>https://usuario.github.io/nombre-repositorio/blog.html</guid>
+<pubDate>Sun, 08 Nov 2026 10:00:00 +0100</pubDate>
+<description>Sube aqui tus experiencias.</description>
+</item>
+
+<item>
+<title>Tabla comparativa</title>
+<link>https://usuario.github.io/nombre-repositorio/tabla.html</link>
+<guid>https://usuario.github.io/nombre-repositorio/tabla.html</guid>
+<pubDate>Tue, 08 Nov 2026 10:00:00 +0100</pubDate>
+<description>Echale un vistazo rápido a la informacion.</description>
+</item>
+
+<item>
+<title>Galería</title>
+<link>https://usuario.github.io/nombre-repositorio/galeria.html</link>
+<guid>https://usuario.github.io/nombre-repositorio/galeria.html</guid>
+<pubDate>Wed, 08 Nov 2026 10:00:00 +0100</pubDate>
+<description>Sube aqui tus fotos.</description>
+</item>
+</channel>
+</rss>

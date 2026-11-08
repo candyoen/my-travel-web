@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="icon" type="image/svg+xml" href="img/favicon.png">
+    <title>myTravelWeb</title>
+</head>
+<body>
+
+    <header> 
+      <h1> Viaja sin limites </h1>
+      <h2> La <strong> mejor </strong> web de viajes  </h2>
+      <h3> Planea, vive y recuerda todos tus viajes</h3>
+      <img src="img/logotipo.jpg" alt="Logotipo de mi sitio web">
+      <nav>
+        <!-- No quiero que se vea tipo tabla, sino en linea, uno detrás de otro-->
+            <a href="blog.html" title= "Leer artículos del Blog">  -Blog  </a>
+            <a href="galeria.html" title= "Ver fotos de la galeria ">-Galería  </a>
+            <a href="tabla.html" title= "Consultar datos ">-Tabla  </a>
+            <a href="formulario.html" title= "Rellena tu formulario">-Formulario  </a>
+        
+
+
+      </nav>
+
+    </header>
+    <!--Contenido-->
+    <main>
+      <form name="form-reserva" action="procesar.php" method="post">
+
+        <fieldset>
+            <legend> 1.Datos Personales</legend>
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" required placeholder="Ej. Ana Santos">
+            </div>
+            <div>
+                <label for="email">Correo electrónico:</label>
+                 <input type="email" id="email" required placeholder="usuario@correo.com">
+            </div>
+            <div>
+                <label for="password">Contraseña:</label>
+                 <input type="password" id="password" required minlength="6" placeholder="Minimo 6 digitos">
+            </div>
+
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>2.Detalles</legend>
+            <div>
+                <label for="destino"> Seleccione su destino</label>
+                <select id="destino" name="destino " required>
+                    <option value=" " > Elige una opción</option>
+                    <option value=" asia" > Asia </option>
+                    <option value=" europa" > Europa </option>
+                    <option value=" America" > America </option>
+                    <option value=" africa" > Africa </option>
+                    <option value=" oceania" > Oceanía </option>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <button type="submit"> Enviar solicitud</button>
+            <button type="reset"> Borrar</button>
+        </div>
+      </form>
+
+    </main>
+
+
+    
+
+    <footer>
+     <p>&copy; <time datetime="2026">2026</time>Candela Ana 1DAM -A. Todos los derechos reservados.</p>
+    </footer>
+
+    
+</body>
+</html>
