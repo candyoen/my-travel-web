@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="icon" type="image/svg+xml" href="img/favicon.png">
+    <title>myTravelWeb</title>
+</head>
+<body>
+
+    <header> 
+      <h1> Viaja sin limites </h1>
+      <h2> La <strong> mejor </strong> web de viajes  </h2>
+      <h3> Planea, vive y recuerda todos tus viajes</h3>
+      <img src="img/logotipo.jpg" alt="Logotipo de mi sitio web">
+      <nav>
+        <!-- No quiero que se vea tipo tabla, sino en linea, uno detrás de otro-->
+            <a href="index.html" title= "Inicio">  -Inicio  </a>
+            <a href="blog.html" title= "Leer artículos del Blog ">-Blog  </a>
+            <a href="tabla.html" title= "Consultar datos ">-Tabla  </a>
+            <a href="formulario.html" title= "Rellena tu formulario">-Formulario  </a>
+        
+
+
+      </nav>
+
+    </header>
+    <!--Contenido-->
+    <main>
+        <table>
+            <caption> Comparativa de Destinos Populares por Continente</caption>
+            <!--Cabecera-->
+            <thead>
+                <tr>
+                    <th scope="col"> Continente</th>
+                    <th scope="col"> Ciudad</th>
+                    <th scope="col"> Mejor época </th>
+                    <th scope="col"> Presupuesto estimado</th>
+                </tr>
+            </thead>
+            <!-- Cuerpo-->
+             <tbody>
+                <tr>
+                    <th scope="row" rowspan="2"> Europa</th>
+                    <td>París, Francia</td>
+                    <td>Primavera/Otoño</td>
+                    <td>Alto</td>
+                </tr>
+                <tr>
+                    <td>Roma, Italia</td>
+                    <td>Primavera</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2"> Asia</th>
+                    <td>Tokio, Japón</td>
+                    <td>Otoño</td>
+                    <td>Alto</td>
+                </tr>
+                <tr>
+                    <td>Bangkok, Tailandia</td>
+                    <td>Invierno</td>
+                    <td>Bajo</td>
+                </tr>
+             </tbody>
+
+             <tfoot>
+                <tr>
+                    <td colspan="4"> Nota: Los presupuestos son orientativos e incluyen alojamiento y transporte local.</td>
+                </tr>
+             </tfoot>
+
+
+        </table>
+
+        <p>
+         En conclusión, elegir el destino ideal depende del presupuesto disponible y
+          de la temporada adecuada para viajar a cada continente.
+        </p>
+
+
+    </main>
+       
+
+   
+    
+</body>
+</html>
