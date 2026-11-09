@@ -47,15 +47,16 @@ Sitio web multiplataforma dedicado al turismo global, que ofrece guías de desti
 
 ### HTML
 
-![Resultado de validación HTML](img/validacion-html.png)
+![Resultado de validación HTML](img/revisionhtml.png)
 
 ### CSS
 
-![Resultado de validación CSS](img/validacion-css.png)
+![Resultado de validación CSS](img/revisioncss.png)
 
 ### RSS
 
-![Resultado de validación RSS](img/validacion-rss.png)
+![Resultado de validación RSS](img/rssfotoprueba.png)
+![Resultado de validación RSS](img/fotopruba.png)
 
 ## Dificultades encontradas
 
