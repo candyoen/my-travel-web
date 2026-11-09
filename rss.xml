@@ -20,7 +20,7 @@
 <title>Tabla comparativa</title>
 <link>https://usuario.github.io/nombre-repositorio/tabla.html</link>
 <guid>https://usuario.github.io/nombre-repositorio/tabla.html</guid>
-<pubDate>Tue, 08 Nov 2026 10:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 10:00:00 +0100</pubDate>
 <description>Echale un vistazo rápido a la informacion.</description>
 </item>
 
@@ -28,8 +28,10 @@
 <title>Galería</title>
 <link>https://usuario.github.io/nombre-repositorio/galeria.html</link>
 <guid>https://usuario.github.io/nombre-repositorio/galeria.html</guid>
-<pubDate>Wed, 08 Nov 2026 10:00:00 +0100</pubDate>
+<pubDate>Sun, 08 Nov 2026 10:00:00 +0100</pubDate>
 <description>Sube aqui tus fotos.</description>
+<atom:link href="https://candyoen.github.io/my-travel-web/rss.xml" rel="self" type="application/rss+xml" />
 </item>
+
 </channel>
 </rss>
