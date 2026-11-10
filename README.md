@@ -55,8 +55,8 @@ Sitio web multiplataforma dedicado al turismo global, que ofrece guías de desti
 
 ### RSS
 
-![Resultado de validación RSS](img/rssfotoprueba.png)
-![Resultado de validación RSS](img/fotopruba.png)
+![Resultado de validación RSS](img/rssrevision.png)
+
 
 ## Dificultades encontradas
 
