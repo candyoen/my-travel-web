@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" type="image/svg+xml" href="img/favicon.png">
     <title>myTravelWeb</title>
 </head>
+
 <body>
 
-    <header> 
-      <h1> Viaja sin limites </h1>
-      <h2> La <strong> mejor </strong> web de viajes  </h2>
-      <h3> Planea, vive y recuerda todos tus viajes</h3>
-      <img src="img/logotipo.jpg" alt="Logotipo de mi sitio web">
-      <nav>
-        <!-- No quiero que se vea tipo tabla, sino en linea, uno detrás de otro-->
-            <a href="index.html" title= "Inicio">  -Inicio  </a>
-            <a href="blog.html" title= "Leer artículos del Blog ">-Blog  </a>
-            <a href="tabla.html" title= "Consultar datos ">-Tabla  </a>
-            <a href="formulario.html" title= "Rellena tu formulario">-Formulario  </a>
-        
+    <header>
+        <h1> Viaja sin limites </h1>
+        <h2> La <strong> mejor </strong> web de viajes </h2>
+        <h3> Planea, vive y recuerda todos tus viajes</h3>
+        <img src="img/logotipo.jpg" alt="Logotipo de mi sitio web">
+        <nav>
+            <!-- No quiero que se vea tipo tabla, sino en linea, uno detrás de otro-->
+            <ul>
+                <li><a href="index.html" title="Inicio"> -Inicio </a></li>
+                <li><a href="blog.html" title="Leer artículos del Blog"> -Blog </a></li>
+                <li><a href="galeria.html" title="Ver fotos de la galeria ">-Galería </a></li>
+                <li><a href="tabla.html" title="Consultar datos ">-Tabla </a></li>
+                <li><a href="formulario.html" title="Rellena tu formulario">-Formulario </a></li>
+            </ul>
 
-
-      </nav>
+        </nav>
 
     </header>
     <!--Contenido-->
@@ -31,89 +34,96 @@
         <section>
             <h2> Fotografías </h2>
             <!-- jpg -->
-             <figure>
-                <img src="img/murallaChina.jpg" alt="la gran muralla China" width="400" height="300" loading="lazy">
+            <figure>
+                <img src="img/murallachina.jpg" alt="la gran muralla China" title="Fotografía de la Gran Muralla China"
+                    width="400" height="300" loading="lazy">
                 <figcaption> Muralla China</figcaption>
-             </figure>
+            </figure>
             <figure>
-                <img src="img/tajMahal.jpg" alt="el Taj Mahal" width="400" height="300" loading="lazy">
+                <img src="img/tajmahal.jpg" alt="el Taj Mahal" title="Fotografía del Taj Mahal" width="400" height="300"
+                    loading="lazy">
                 <figcaption> Taj Mahal</figcaption>
-             </figure>
-             <!-- webp-->
+            </figure>
+            <!-- webp-->
             <figure>
-                <img src="img/bigben.webp" alt="imagen del big ben" width="400" height="300" loading="lazy">
+                <img src="img/bigben.webp" alt="imagen del big ben" title="Fotografía del Big Ben" width="400"
+                    height="300" loading="lazy">
                 <figcaption> Big Ben</figcaption>
-             </figure>
-             <figure>
-                <img src="img/operaSidney.webp" alt="la opera de Sidney" width="400" height="300" loading="lazy">
+            </figure>
+            <figure>
+                <img src="img/operasidney.webp" alt="la opera de Sidney" title="Fotografía de la Opera de Sidney"
+                    width="400" height="300" loading="lazy">
                 <figcaption> Opera de Sidney</figcaption>
-             </figure>
-             <!-- png -->
-             <figure>
-                <img src="img/camara.png" alt="camara analogica" width="400" height="300" loading="lazy">
+            </figure>
+            <!-- png -->
+            <figure>
+                <img src="img/camara.png" alt="camara analogica" title="Fotografía de una camara analogica" width="400"
+                    height="300" loading="lazy">
                 <figcaption> Camara Analógica</figcaption>
-             </figure>
-             <!-- svg -->
-              <figure>
-                <img src="img/travel.svg" alt="" width="400" height="300" loading="lazy">
+            </figure>
+            <!-- svg -->
+            <figure>
+                <img src="img/travel.svg" alt="" title="Imagen animada" width="400" height="300" loading="lazy">
                 <figcaption> Travel</figcaption>
-             </figure>
-             <!-- gif-->
-              <figure>
-                <img src="img/trevel.gif" alt="" width="400" height="300" loading="lazy">
+            </figure>
+            <!-- gif-->
+            <figure>
+                <img src="img/trevel.gif" alt="" title="gif mundo" width="400" height="300" loading="lazy">
                 <figcaption> Travel</figcaption>
-             </figure>
- 
+            </figure>
 
         </section>
-         <!-- Mapa-->
+        <!-- Mapa-->
         <section>
             <h2> Mapa interactivo para el viajero</h2>
             <p> Haz clic para ver lo diferentes continentes</p>
-            <img src="img/mapamundi.jpg" alt="mapa del mundo interactivo" usemap="#mapa-mundi" width="800" height="400">
+            <img src="img/mapamundi.jpg" alt="mapa del mundo interactivo" title="Mapa interactivo" usemap="#mapa-mundi"
+                width="800" height="400">
 
             <map name="mapa-mundi">
-                <area shape="rect" coords=" 50,50,250,200" href="#"alt = "America" title="Ir a la seccion America">
+                <area shape="rect" coords=" 50,50,250,200" href="#" alt="America" title="Ir a la seccion America">
                 <area shape="circle" coords="400,200,60" href="#" alt="Europa" title=" Ir a la seccion Europa">
-                <area shape="poly" coords=" 550, 100, 700, 250, 550, 250" href="#" alt="Asia" title=" Ir a la seccion Asia">
+                <area shape="poly" coords=" 550, 100, 700, 250, 550, 250" href="#" alt="Asia"
+                    title=" Ir a la seccion Asia">
 
             </map>
-
 
         </section>
 
         <section>
             <h2> Video </h2>
-            <video controls poster="img/portadavideo.jpg" width="640" height="360">
+            <video controls poster="img/portadavideo.jpg" title="Video trucos" width="640" height="360">
                 <source src="video/video.mp4" type="video/mp4">
                 <!--Subtitulos?-->
             </video>
         </section>
         <section>
             <h2>Podcast</h2>
-            <audio controls>
+            <audio controls title="Audio">
                 <source src="#" type="audio">
-                
+
             </audio>
         </section>
         <section>
             <h3>Google Maps</h3>
             <!-- Repasar mirar-->
-            <iframe width="600" height="450" src="https://www.google.com/maps/embed?pb=..." title="Mapa de Google Maps de nuestra agencia" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe width="600" height="450" title="Mapa de Google Maps de nuestra agencia"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180589.70807113056!2d-16.956615999389587!3d32.749741775270294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc5fe9a0f8f92eef%3A0xc77e56774ba5e6f!2sMadeira%2C%20Portugal!5e0!3m2!1ses!2ses!4v1794395022746!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
         </section>
 
 
     </main>
 
-       <footer>
-     <p>&copy; <time datetime="2026">2026</time>Candela Ana 1DAM -A. Todos los derechos reservados.</p>
-     <p>
-    <a href="rss.xml" target="_blank">Suscríbete a nuestro RSS 📡</a>
-  </p>
+    <footer>
+        <p>&copy; <time datetime="2026">2026</time>Candela Ana 1DAM -A. Todos los derechos reservados.</p>
+        <p>
+            <a href="rss.xml" target="_blank" title="Mira el rss">Suscríbete a nuestro RSS 📡</a>
+        </p>
     </footer>
-       
 
-   
-    
 </body>
+
 </html>
